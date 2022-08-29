@@ -6,8 +6,6 @@ html {
   }
   
   body {
-    background-color: cadetblue;
-    background-size: cover;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -31,12 +29,12 @@ html {
     position: absolute;
     margin-top: 27vh;
     margin-left: 20vw;
-    display: grid;
+    /* display: grid;
     grid-template-rows: auto;
     grid-template-columns: 6fr 2fr;
-    align-items:flex-end;
+    align-items:flex-end; */
 }
-  .game .ans {
+  .ans {
     
     border-bottom:  solid rgba(9, 128, 15, 0.623);
     height:100%;
@@ -47,7 +45,7 @@ html {
     color: rgb(232, 248, 9);
     border-left:  solid rgba(9, 128, 15, 0.623);
   }
-  .game .try{
+  .try{
     height:100%;
     border-bottom:  solid rgba(9, 128, 15, 0.623);
     height:100%;
@@ -56,7 +54,45 @@ html {
     letter-spacing:4vw;
     font-size: xx-large;
     color: rgb(9, 218, 26);
-    
-    
-    
   }
+  .esc{font-size: xx-large;
+    color: aliceblue;
+    position: relative;
+    margin-top: 89vh;
+    margin-left: 28vw;
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    background-color: #272c2cfb;
+    border-radius: 30px;
+  } 
+  .ok{font-size: xx-large;
+    color: aliceblue;
+    border: none;
+    margin-left: 14vw;
+    position: relative;
+    margin-top: 0vh;
+    width: 5vw;
+    height: 6vh;
+    background-color: #2e3434;
+    border-radius: 39px;
+
+  }
+  .esc:hover{
+  color: rgb(241, 47, 47);
+  }
+  .ok:hover{
+    color: rgb(9, 155, 9);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
